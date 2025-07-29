@@ -1,0 +1,41 @@
+.location-section {
+  background-color: #222; /* Simple dark background */
+  padding: 60px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.location-section h2 {
+  font-size: 2.5rem;
+  color: #f8b400;
+  margin-bottom: 1rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.location-section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.location-details {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.location-details h3 {
+  color: #f8b400;
+  margin-top: 1.5rem;
+}
+
+.location-details a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.location-details a:hover {
+  text-decoration: underline;
+  color: #f8b400;
+}

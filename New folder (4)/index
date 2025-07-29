@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>bytexl Experience</title>
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+ 
+  <nav class="navbar">
+    <div class="logo">bytexl</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about-us">About Us</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#reservation">Reservation</a></li>
+      <li><a href="#location">Location</a></li>
+      <li><a href="#blog">Blog</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to the byteXL New Flavours</h1>
+      <a href="#reservation" class="book-btn">Book a Table</a>
+    </div>
+  </section>
+
+  <section id="about-us" class="section-content about-us">
+    <h2>About Us</h2>
+    <p>
+      At byteXL, we are passionate about delivering an unforgettable fine dining experience. Our chefs craft exquisite dishes using the freshest ingredients, blending innovative flavors with timeless culinary traditions. Whether you're celebrating a special occasion or just indulging in great food, we promise a warm and inviting atmosphere paired with exceptional service.
+    </p>
+  </section>
+
+  <section id="menu" class="section-content menu">
+    <h2>Our Menu</h2>
+    <div class="menu-grid">
+      <div>
+        <h3>Starters</h3>
+        <ul>
+          <li>Truffle Mushroom Soup</li>
+          <li>Caesar Salad with Parmesan</li>
+          <li>Smoked Salmon Crostini</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Main Course</h3>
+        <ul>
+          <li>Grilled Ribeye Steak with Herb Butter</li>
+          <li>Pan-Seared Sea Bass with Lemon Sauce</li>
+          <li>Wild Mushroom Risotto</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Desserts</h3>
+        <ul>
+          <li>Chocolate Lava Cake</li>
+          <li>Classic Tiramisu</li>
+          <li>Crème Brûlée</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Beverages</h3>
+        <ul>
+          <li>Fine Wines Selection</li>
+          <li>Freshly Brewed Coffee</li>
+          <li>Craft Cocktails</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="section-content gallery">
+   <h2>Gallery</h2>
+   
+   <div class="gallery-grid">
+     <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80" alt="Elegant plated dish" />
+     <img src="https://media.istockphoto.com/id/587207508/photo/sliced-grilled-steak-ribeye-with-herb-butter.webp?a=1&b=1&s=612x612&w=0&k=20&c=iBjNjYM1bRlYCYIThPVZtsWOPRljZpWLE59qjnDOU50=" alt="Gourmet seafood" />
+     <img src="https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YmV2ZXJhZ2V8ZW58MHx8MHx8fDA%3D" alt="Restaurant interior" />
+     <img src="https://media.istockphoto.com/id/544716244/photo/warm-chocolate-lava-cake-with-molten-center-and-red-currants.webp?a=1&b=1&s=612x612&w=0&k=20&c=LJLYYuVRRWLW2ODCdrF_Fcxrg-DVijWHnfzwtyehqCM=" alt="Wine and table setup" />
+     <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&w=800&q=80" alt="Chef plating dish" />
+     <img src="https://media.istockphoto.com/id/1177031727/photo/pumpkin-and-carrot-soup-with-cream-on-grey-stone-background-top-view.webp?a=1&b=1&s=612x612&w=0&k=20&c=-UBvTw_kRCDBbqywpbRXsiJ7uJ67iaY0XxxtwY3V7g4=" alt="Artistic dessert" />
+   </div>
+  </section>
+  
+  <section id="reservation" class="section-content reservation">
+    <h2>Make a Reservation</h2>
+    <form action="#" method="POST" class="reservation-form">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Your full name" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required />
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="+1 234 567 8900" required />
+
+      <label for="date">Reservation Date</label>
+      <input type="date" id="date" name="date" required />
+
+      <label for="time">Reservation Time</label>
+      <input type="time" id="time" name="time" required />
+
+      <label for="guests">Number of Guests</label>
+      <input type="number" id="guests" name="guests" min="1" max="20" value="2" required />
+
+      <button type="submit" class="book-btn">Reserve Now</button>
+    </form>
+  </section>
+  
+<section id="location" class="section-content location-section">
+  <h2>Our Location</h2>
+  <p>Come visit us at our restaurant — we’d love to host you!</p>
+
+  <div class="location-details">
+    <h3>Address</h3>
+    <p>
+      ByteXL Fine Dine<br>
+      123 Culinary Avenue,<br>
+      Hyderabad, Telangana, 500081<br>
+      India
+    </p>
+
+    <h3>Contact</h3>
+    <p>Email: <a href="mailto:reservations@bytexlrestaurant.com">reservations@bytexlrestaurant.com</a></p>
+    <p>Phone: <a href="tel:+919876543210">+91 98765 43210</a></p>
+  </div>
+</section>
+<section id="blog" class="section-content blog-section">
+  <h2>Our Blog</h2>
+  <div class="blog-grid">
+    <article class="blog-post">
+      <h3>5 Secrets to Perfect Fine Dining</h3>
+      <p>Discover the art of balancing flavors, setting the mood, and choosing the right wine to elevate your dining experience.</p>
+      <a href="#">Read More →</a>
+    </article>
+    <article class="blog-post">
+      <h3>Chef’s Special: Behind the Scenes</h3>
+      <p>Go behind the curtain to explore the techniques and stories that inspire our chefs’ signature dishes.</p>
+      <a href="#">Read More →</a>
+    </article>
+    <article class="blog-post">
+      <h3>Why Ambience Matters</h3>
+      <p>Explore how lighting, music, and decor create the perfect setting for your meal.</p>
+      <a href="#">Read More →</a>
+    </article>
+  </div>
+</section>
+
+  <footer class="social-footer">
+    <a href="https://facebook.com/yourprofile" class="social-icon facebook" aria-label="Facebook" target="_blank">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://instagram.com/yourprofile" class="social-icon instagram" aria-label="Instagram" target="_blank">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://twitter.com/yourprofile" class="social-icon twitter" aria-label="Twitter" target="_blank">
+      <i class="fab fa-twitter"></i>
+    </a>
+  </footer>
+</body>
+</html>
